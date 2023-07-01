@@ -27,9 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
-
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
@@ -37,7 +35,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "blog.apps.BlogConfig"
+    "blog.apps.BlogConfig",
 ]
 
 MIDDLEWARE = [
@@ -122,3 +120,13 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+# Email stuff
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
+# EMAIL_HOST = "smtp.yusuf.rocks"
+# EMAIL_HOST_USER = "a@yusuf.rocks"
+# EMAIL_HOST_PASSWORD = "extremelybigsecret"
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
