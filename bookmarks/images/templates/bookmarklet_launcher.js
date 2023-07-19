@@ -1,0 +1,1 @@
+javascript:void%20function(){(function(){window.bookmarklet%3FbookmarkletLaunch():(bookmarklet_js=document.body.appendChild(document.createElement(%22script%22)),bookmarklet_js.src=%22https://127.0.0.1:8000/static/js/bookmarklet.js%3Fr=%22+Math.floor(1e16*Math.random()),window.bookmarklet=!0)})()}();
