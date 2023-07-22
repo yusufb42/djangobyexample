@@ -109,6 +109,7 @@ USE_TZ = True
 STATIC_URL = "static/"
 MEDIA_URL = "media/"
 MEDIA_ROOT = BASE_DIR / "media"
+STATIC_ROOT = BASE_DIR / "static"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
@@ -125,3 +126,4 @@ EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 STRIPE_PUBLISHABLE_KEY = ""  # publishable key
 STRIPE_SECRET_KEY = ""  # secret key
 STRIPE_API_VERSION = "2022-11-15"
+STRIPE_WEBHOOK_SECRET = ""
