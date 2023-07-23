@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     "cart.apps.CartConfig",
     "orders.apps.OrdersConfig",
     "payment.apps.PaymentConfig",
+    "coupons.apps.CouponsConfig",
     "debug_toolbar",
 ]
 
@@ -127,3 +128,9 @@ STRIPE_PUBLISHABLE_KEY = ""  # publishable key
 STRIPE_SECRET_KEY = ""  # secret key
 STRIPE_API_VERSION = "2022-11-15"
 STRIPE_WEBHOOK_SECRET = ""
+
+
+# redis settings
+REDIS_HOST = "localhost"
+REDIS_PORT = 6379
+REDIS_DB = 1
