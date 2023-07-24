@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-24 14:52+0200\n"
+"PO-Revision-Date: 2023-07-24 12:54+0000\n"
+"Last-Translator:   <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.9\n"
+
+#: cart/forms.py:9
+msgid "Quantity"
+msgstr "Aantal"
+
+#: coupons/forms.py:6
+msgid "Coupon"
+msgstr "Coupon"
+
+#: myshop/settings.py:103
+msgid "English"
+msgstr "Engels"
+
+#: myshop/settings.py:104
+msgid "Dutch"
+msgstr "Nederlands"
+
+#: myshop/urls.py:12
+msgid "cart/"
+msgstr "winkelwagen/"
+
+#: myshop/urls.py:13
+msgid "orders/"
+msgstr "orders/"
+
+#: myshop/urls.py:14
+msgid "payment/"
+msgstr "betaling/"
+
+#: myshop/urls.py:15
+#| msgid "Coupon"
+msgid "coupons/"
+msgstr "coupons/"
+
+#: myshop/urls.py:16
+msgid "rosetta/"
+msgstr ""
+
+#: payment/urls.py:9
+msgid "process/"
+msgstr "proces/"
+
+#: payment/urls.py:10
+msgid "completed/"
+msgstr "afgerond/"
+
+#: payment/urls.py:11
+msgid "canceled/"
+msgstr "geannuleer/"
+
+#: shop/templates/shop/base.html:8 shop/templates/shop/base.html:14
+msgid "My shop"
+msgstr "Mijn winkel"
+
+#: shop/templates/shop/base.html:20
+msgid "Your cart"
+msgstr "Winkelwagen"
+
+#: shop/templates/shop/base.html:22
+#, python-format
+msgid ""
+"\n"
+"                        %(items)s item, €%(total)s\n"
+"                    %(plural)s\n"
+"                        %(items)s items, €%(total)s\n"
+"                    "
+msgstr ""
+"\n"
+"%(items)s product, €%(total)s\n"
+"%(plural)s\n"
+"%(items)s producten, €%(total)s"
+
+#: shop/templates/shop/base.html:29
+msgid "Your cart is empty."
+msgstr "De winkelwagen is leeg"
+
+#: shop/templates/shop/product/detail.html:22
+msgid "Add to cart"
+msgstr "Toevoegen aan winkelwagen"
+
+#: shop/templates/shop/product/detail.html:28
+msgid "People who bought this also bought"
+msgstr "Anderen hebben ook het volgende gekocht"
